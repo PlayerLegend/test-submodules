@@ -25,3 +25,6 @@
 [submodule "src/immutable"]
 	path = src/immutable
 	url = ../submodule-immutable
+[submodule "src/tar"]
+	path = src/tar
+	url = ../submodules-tar
