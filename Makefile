@@ -65,5 +65,17 @@ install-user:
 
 # DO NOT DELETE
 
+src/range/range_strdup.o: src/range/def.h src/range/string.h
+src/range/streq.o: src/range/def.h src/range/string.h
+src/range/test/range.test.o: src/range/string.h src/range/def.h
+src/range/test/range.test.o: src/range/string.h
+src/range/range_strstr_string.o: src/range/string.h src/range/def.h
+src/range/path.o: src/range/def.h
+src/range/strstr.o: src/range/def.h src/range/string.h
+src/range/range_streq_string.o: src/range/string.h src/range/def.h
+src/range/range_atozd.o: src/range/def.h src/range/string.h
+src/range/path.o: src/range/def.h src/range/path.h
+src/range/string.o: src/range/def.h
+src/range/strchr.o: src/range/def.h src/range/string.h
 src/log/test/log.test.o: src/log/log.h
 src/log/log.o: src/log/log.h
