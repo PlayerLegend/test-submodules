@@ -10,3 +10,9 @@
 [submodule "src/keyargs"]
 	path = src/keyargs
 	url = ../submodule-keyargs
+[submodule "src/window"]
+	path = src/window
+	url = ../submodule-window
+[submodule "src/convert"]
+	path = src/convert
+	url = ../submodule-convert

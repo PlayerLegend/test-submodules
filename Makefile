@@ -77,5 +77,55 @@ src/range/range_atozd.o: src/range/def.h src/range/string.h
 src/range/path.o: src/range/def.h src/range/path.h
 src/range/string.o: src/range/def.h
 src/range/strchr.o: src/range/def.h src/range/string.h
+src/convert/fd.o: ../range/def.h src/window/def.h src/window/alloc.h
+src/convert/fd.o: ../keyargs/keyargs.h src/range/def.h src/convert/fd.h
+src/convert/fd.o: ../log/log.h
+src/convert/test/cat-load-all.test.o: src/range/def.h src/window/def.h
+src/convert/test/cat-load-all.test.o: src/window/alloc.h
+src/convert/test/cat-load-all.test.o: src/keyargs/keyargs.h src/range/def.h
+src/convert/test/cat-load-all.test.o: src/convert/fd.h src/log/log.h
+src/convert/test/getline.test.o: src/range/def.h src/window/def.h
+src/convert/test/getline.test.o: src/window/alloc.h src/keyargs/keyargs.h
+src/convert/test/getline.test.o: src/range/def.h src/convert/fd.h
+src/convert/test/getline.test.o: src/convert/getline.h src/log/log.h
+src/convert/test/cat.test.o: src/range/def.h src/window/def.h
+src/convert/test/cat.test.o: src/window/alloc.h src/keyargs/keyargs.h
+src/convert/test/cat.test.o: src/range/def.h src/convert/fd.h src/log/log.h
+src/convert/getline.o: ../range/def.h src/window/def.h src/range/def.h
+src/convert/def.o: ../range/def.h src/window/def.h src/window/alloc.h
+src/convert/def.o: src/range/def.h ../log/log.h
+src/convert/fd-bifurcated.o: src/window/def.h src/window/alloc.h
+src/convert/fd-bifurcated.o: src/range/def.h src/convert/fd-bifurcated.h
+src/convert/fd-bifurcated.o: ../log/log.h
+src/convert/fd.o: ../range/def.h src/window/def.h src/range/def.h
+src/convert/fd.o: ../keyargs/keyargs.h
+src/convert/getline.o: src/range/string.h ../range/def.h ../range/string.h
+src/convert/getline.o: src/window/def.h src/window/alloc.h
+src/convert/getline.o: ../keyargs/keyargs.h src/range/def.h
+src/convert/getline.o: src/convert/getline.h ../log/log.h
+src/convert/def.o: ../range/def.h src/window/def.h
+src/convert/fd-bifurcated.o: src/window/def.h src/range/def.h
 src/log/test/log.test.o: src/log/log.h
 src/log/log.o: src/log/log.h
+src/window/printf.o: ../range/def.h src/range/def.h
+src/window/vprintf_append.o: ../range/def.h src/range/def.h
+src/window/vprintf_append.o: src/window/vprintf.h src/window/alloc.h
+src/window/alloc.o: ../range/def.h src/window/def.h
+src/window/def.o: ../range/def.h
+src/window/string.o: ../range/def.h src/range/def.h
+src/window/vprintf.o: ../range/def.h src/range/def.h
+src/window/printf_append.o: ../range/def.h src/range/def.h
+src/window/printf_append.o: src/window/printf.h src/window/alloc.h
+src/window/printf_append.o: src/window/vprintf.h
+src/window/printf.o: ../range/def.h src/range/def.h src/window/printf.h
+src/window/printf.o: src/window/alloc.h src/window/vprintf.h
+src/window/vprintf.o: ../range/def.h src/range/def.h src/window/vprintf.h
+src/window/vprintf.o: src/window/alloc.h
+src/window/string.o: src/range/string.h ../range/def.h src/range/def.h
+src/window/string.o: src/window/alloc.h
+src/window/test/printf.test.o: src/range/string.h src/range/def.h
+src/window/test/printf.test.o: src/range/def.h src/window/printf.h
+src/window/test/window.test.o: src/range/def.h src/range/def.h
+src/window/test/window.test.o: src/window/alloc.h src/log/log.h
+src/window/alloc.o: src/range/string.h ../range/def.h src/range/def.h
+src/window/alloc.o: src/window/alloc.h ../log/log.h
