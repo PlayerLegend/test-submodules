@@ -77,6 +77,46 @@ src/range/range_atozd.o: src/range/def.h src/range/string.h
 src/range/path.o: src/range/def.h src/range/path.h
 src/range/string.o: src/range/def.h
 src/range/strchr.o: src/range/def.h src/range/string.h
+src/lang/tree/tree.o: src/range/def.h src/window/def.h src/lang/error/error.h
+src/lang/tree/tree.o: src/immutable/immutable.h
+src/lang/tree/test/tree.test.o: src/range/def.h src/log/log.h
+src/lang/tree/test/tree.test.o: src/window/def.h src/window/alloc.h
+src/lang/tree/test/tree.test.o: src/keyargs/keyargs.h src/convert/def.h
+src/lang/tree/test/tree.test.o: src/convert/fd.h src/lang/error/error.h
+src/lang/tree/test/tree.test.o: src/immutable/immutable.h
+src/lang/tree/test/tree.test.o: src/lang/tree/tree.h
+src/lang/tree/test/tree.test.o: src/lang/tokenizer/tokenizer.h
+src/lang/tree/tree.o: src/range/def.h src/window/def.h src/window/alloc.h
+src/lang/tree/tree.o: src/immutable/immutable.h src/lang/error/error.h
+src/lang/tree/tree.o: src/lang/tree/tree.h src/log/log.h
+src/lang/preprocessor/preprocessor.o: src/range/def.h src/window/def.h
+src/lang/preprocessor/preprocessor.o: src/convert/def.h
+src/lang/preprocessor/preprocessor.o: src/lang/error/error.h
+src/lang/preprocessor/preprocessor.o: src/immutable/immutable.h
+src/lang/preprocessor/preprocessor.o: src/lang/tree/tree.h
+src/lang/preprocessor/preprocessor.o: src/range/def.h src/window/def.h
+src/lang/preprocessor/preprocessor.o: src/convert/def.h
+src/lang/preprocessor/preprocessor.o: src/lang/error/error.h
+src/lang/preprocessor/preprocessor.o: src/immutable/immutable.h
+src/lang/preprocessor/preprocessor.o: src/lang/tree/tree.h
+src/lang/preprocessor/preprocessor.o: src/lang/preprocessor/preprocessor.h
+src/lang/preprocessor/preprocessor.o: src/table/table-string.h
+src/lang/error/error.o: src/log/log.h
+src/lang/tokenizer/test/tokenizer.test.o: src/range/def.h src/window/def.h
+src/lang/tokenizer/test/tokenizer.test.o: src/window/alloc.h
+src/lang/tokenizer/test/tokenizer.test.o: src/convert/def.h
+src/lang/tokenizer/test/tokenizer.test.o: src/keyargs/keyargs.h
+src/lang/tokenizer/test/tokenizer.test.o: src/convert/fd.h
+src/lang/tokenizer/test/tokenizer.test.o: src/lang/error/error.h
+src/lang/tokenizer/test/tokenizer.test.o: src/lang/tokenizer/tokenizer.h
+src/lang/tokenizer/test/tokenizer.test.o: src/log/log.h
+src/lang/tokenizer/tokenizer.o: src/range/def.h src/window/def.h
+src/lang/tokenizer/tokenizer.o: src/convert/def.h src/lang/error/error.h
+src/lang/tokenizer/tokenizer.o: src/range/def.h src/table/table.h
+src/lang/tokenizer/tokenizer.o: src/table/table-string.h src/window/def.h
+src/lang/tokenizer/tokenizer.o: src/window/alloc.h src/convert/def.h
+src/lang/tokenizer/tokenizer.o: src/log/log.h src/lang/error/error.h
+src/lang/tokenizer/tokenizer.o: src/lang/tokenizer/tokenizer.h
 src/convert/fd.o: ../range/def.h src/window/def.h src/window/alloc.h
 src/convert/fd.o: ../keyargs/keyargs.h src/range/def.h src/convert/fd.h
 src/convert/fd.o: ../log/log.h
@@ -105,6 +145,24 @@ src/convert/getline.o: ../keyargs/keyargs.h src/range/def.h
 src/convert/getline.o: src/convert/getline.h ../log/log.h
 src/convert/def.o: ../range/def.h src/window/def.h
 src/convert/fd-bifurcated.o: src/window/def.h src/range/def.h
+src/table/table.o: src/range/string.h ../range/def.h src/table/table.h
+src/table/table.o: src/table/table-string.h
+src/table/test/table-string-benchmark.test.o: src/range/string.h
+src/table/test/table-string-benchmark.test.o: src/table/table.h
+src/table/test/table-string-benchmark.test.o: src/table/table-string.h
+src/table/test/table-string-benchmark.test.o: src/keyargs/keyargs.h
+src/table/test/table-string-benchmark.test.o: src/log/log.h
+src/table/test/table-string-map.test.o: src/range/string.h src/range/def.h
+src/table/test/table-string-map.test.o: src/window/def.h src/window/string.h
+src/table/test/table-string-map.test.o: src/keyargs/keyargs.h
+src/table/test/table-string-map.test.o: src/convert/def.h src/convert/fd.h
+src/table/test/table-string-map.test.o: src/convert/getline.h
+src/table/test/table-string-map.test.o: src/table/table.h
+src/table/test/table-string-map.test.o: src/table/table-string.h
+src/table/test/table-string-map.test.o: src/log/log.h
+src/table/table-int.o: src/range/string.h ../range/def.h src/table/table.h
+src/table/table.o: src/range/string.h ../range/def.h
+src/table/table-string.o: src/range/string.h ../range/def.h src/table/table.h
 src/log/test/log.test.o: src/log/log.h
 src/log/log.o: src/log/log.h
 src/window/printf.o: ../range/def.h src/range/def.h
@@ -129,3 +187,10 @@ src/window/test/window.test.o: src/range/def.h src/range/def.h
 src/window/test/window.test.o: src/window/alloc.h src/log/log.h
 src/window/alloc.o: src/range/string.h ../range/def.h src/range/def.h
 src/window/alloc.o: src/window/alloc.h ../log/log.h
+src/immutable/immutable.o: ../range/def.h
+src/immutable/test/immutable.test.o: src/range/string.h src/range/def.h
+src/immutable/test/immutable.test.o: src/immutable/immutable.h
+src/immutable/immutable.o: src/range/string.h ../range/def.h
+src/immutable/immutable.o: src/immutable/immutable.h src/table/table.h
+src/immutable/immutable.o: src/table/table-string.h src/window/def.h
+src/immutable/immutable.o: src/window/alloc.h src/window/string.h

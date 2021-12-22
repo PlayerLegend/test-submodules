@@ -16,3 +16,12 @@
 [submodule "src/convert"]
 	path = src/convert
 	url = ../submodule-convert
+[submodule "src/lang"]
+	path = src/lang
+	url = ../submodule-lang
+[submodule "src/table"]
+	path = src/table
+	url = ../submodule-table
+[submodule "src/immutable"]
+	path = src/immutable
+	url = ../submodule-immutable
