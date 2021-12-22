@@ -1,0 +1,6 @@
+[submodule "make"]
+	path = make
+	url = ../c-projects-makefile
+[submodule "src/log"]
+	path = src/log
+	url = ../submodule-log
